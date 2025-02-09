@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    h1, h2, h3, p {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(172, 30, 30);
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    audio, video {
+      display: block;
+      margin: 10px 0;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<header>
+    <nav>
+    <a href="./table.html">Table</a>
+    </nav>
+</header>
+<body>
+  <h2>Hello, I'm Uzoma Okorie Osi</h2>
+  <h3>Welcome to my personal page where I will share a little bit about myself using various media elements.</h3>
+
+  <!-- Picture Element -->
+  <section>
+    <h2>A Glimpse of Me</h2>
+    <picture>
+    <img src="./Asset/images/image.jpeg" alt="A picture of me">
+      <source srcset="image-large.jpg" sizes="(min-width: 1024px)" type="image/jpeg">
+      <source srcset="image-medium.jpg" sizes="(min-width: 768px)" type="image/jpeg">
+      <source srcset="image-small.jpg" sizes="(max-width: 767px)" type="image/jpeg">
+    </picture>
+    <p>I'm a model and this is one of my moodboard.</p>
+  </section>
+  <!--Another picture element-->
+  <section>
+    <h2>A commercial picture for a Skincare brand </h2>
+    <picture>
+    <img src="./Asset/images/image1.jpeg" alt="A picture of me">
+      <source srcset="image-large.jpg" sizes="(min-width: 1024px)" type="image/jpeg">
+      <source srcset="image-medium.jpg" sizes="(min-width: 768px)" type="image/jpeg">
+      <source srcset="image-small.jpg" sizes="(max-width: 767px)" type="image/jpeg">
+    </picture>
+    <p>I'm also a Beauty and Skincare Influencer.</p>
+  </section>
+  <!--Another picture element-->
+  <section>
+    <h2>My Most recent Picture </h2>
+    <picture>
+    <img src="./Asset/images/image2.jpeg" alt="A picture of me">
+      <source srcset="image-large.jpg" sizes="(min-width: 1024px)" type="image/jpeg">
+      <source srcset="image-medium.jpg" sizes="(min-width: 768px)" type="image/jpeg">
+      <source srcset="image-small.jpg" sizes="(max-width: 767px)" type="image/jpeg">
+    </picture>
+    <p>I love shooting and taking pictures</p>
+  </section>
+  <!-- Video Element -->
+  <section>
+    <h2>This is one of my skincare content video</h2>
+    <video width="640" height="360" controls>
+        <source src="./Asset/video/video.mp4" type="video/mp4">
+        <source src="your-video.webm" type="video/webm">
+        <p>Your browser does not support the video element. Please update your browser.</p>
+      </video>
+      <p>I also love to create content.</p>
+  </section>
+  <!-- Audio Element -->
+  <section>
+    <h2>One of my Favorite Songs</h2>
+    <audio controls>
+      <source src="./Asset/audio/Chris-Brown-Call-Me-Every-Day-ft-Wizkid-(JustNaija.com).mp3" type="audio/mpeg">
+      <source src="favorite-song.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+    <p>This is a snippet of my favorite song. It always gets me in the mood.</p>
+  </section>
+  <!-- Iframe Element -->
+  <section>
+    <h2>My Favorite Youtube  everday workout video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/G16eeqO2U7g" 
+            frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen></iframe>
+    <p>I start my day with this workout video.</p>
+  </section>
+
+  <!-- Download Link -->
+  <section>
+    <h2>You can dowload my profile picture</h2>
+    <a href="./Asset/images/image.jpeg" download>Click here to download my picture</a>
+  </section>
+</body>
+</html>

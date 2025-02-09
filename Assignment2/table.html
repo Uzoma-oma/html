@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table {
+        border-collapse: collapse; /* Remove gaps between cells */
+        width: 100%; /* Table takes full width of the container */
+        text-align: center; /* Center align text in cells */
+      }
+
+      th,
+      td {
+        border: 1px solid #ccc; /* Add borders to cells */
+        padding: 10px; /* Add padding inside cells */
+      }
+
+      th {
+        background-color: #9c9696; /* Light gray background for headers */
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9; /* Alternating row background */
+      }
+    </style>
+  </head>
+  <body>
+    <!--internal navigation-->
+    <header>
+      <nav>
+        <a href="./media.html">Media</a>
+      </nav>
+    </header>
+    <h3>SCHOOLS AND COURSES IN ALTSCHOOL AFRICA</h3>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="1">SCHOOL</th>
+          <th colspan="4">COURSES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>SCHOOL OF DATA</th>
+          <td>Data Analyst</td>
+          <td>Data Science</td>
+          <td>Data Engineering</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>SCHOOL OF ENGINEERING</th>
+          <td>Frontend</td>
+          <td>Backend</td>
+          <td>Cloud</td>
+          <td>Cybersecurity</td>
+        </tr>
+        <tr>
+          <th>SCHOOL OF PRODUCT</th>
+          <td>Product Design</td>
+          <td>Product Marketing</td>
+          <td>Product Management</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
